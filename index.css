@@ -63,7 +63,7 @@ h1{
     top: 0;
 }
 .menu{
-    display: block;
+    position: relative;
     margin: 40px auto 0;
     width: 25px;
     cursor: pointer;
@@ -142,4 +142,30 @@ h1{
 }
 .bubble img:nth-child(7){
     animation-delay: 3s;
+}
+
+.top{width: 25%;
+height: 100vh;
+;background-color: green;display: none;
+position: absolute;top: 0;right: 0;}
+.tt1{
+    width: 100%;float: left;
+}
+.tt1 ul{
+    margin: 0;padding: 0;
+}
+.tt1 ul li{width: 100%;float: left;list-style: none;padding: 10px 0;}
+.tt1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+.tt1 ul li:first-child a{
+    float: right;
+    padding: 5px 15px 0 0;
+}
+.test{
+    display: block;z-index: 7
+    
 }
